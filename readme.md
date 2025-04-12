@@ -33,7 +33,8 @@ In final, am accesat aplicatia prin browser la adresa localhost pentru a verific
 
 ![Accesarea paginii web](/images/localhost.png)
 
-Întrebări
+### 6. Întrebări
+
 Cum doua containere pot interactiona unul cu celalalt
 Containerele pot interactiona intre ele printr-o conexiune locala sau folder comun.
 
