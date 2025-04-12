@@ -1,19 +1,21 @@
 ## 1. Crearea unei aplicații multi-container
 
 Scopul lucrării
-Famialiarizarea cu gestiunea aplicației multi-container creat cu docker-compose.
+Famializarea cu gestiunea aplicației multi-container creat cu docker-compose.
+
+![Creare fisierilor si folderilor](/images/mkdir%20mounts.png)
 
 ### 1. Configurarea fișierului docker-compose.yml
 
 Primul pas in crearea aplicatiei multi-container este configurarea fisierului docker-compose.yml. Acest fisier definește serviciile, rețelele și volumele necesare pentru aplicația noastră.
 
-![Crearea fisierului docker-compose.yml](/images/docker%20compose%20yml.png)
+![Crearea fisierului docker-compose.yml](/images/yml.png)
 
 ### 2. Configurarea variabilelor de mediu pentru MySQL
 
 Pentru a asigura securitatea si configurarea corecta a bazei de date, am creat fisierul mysql.env care contine variabilele de mediu necesare pentru containerul MySQL.
 
-![Crearea fisierului mysql.env](/images/my_sql.png)
+![Crearea fisierului mysql.env](/images/sql.png)
 
 ### 3. Pornirea containerelor
 
